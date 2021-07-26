@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__lang-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.header__lang-link {
+  color: #ffffff;
+}
+
+.lead__title {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.lead__subtitle {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.lead__image {
+  width: 100%;
+}
+
+.lead__caption {
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.intro__title {
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.intro__text {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 400;
+}
+
+.intro__list {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.place__title {
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.place__website {
+
+}
+
+.place__url-heading {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.place__link {
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.place__image {
+  width: 100%;
+}
+
+.place__paragraph {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 400;
+}
+
+.cover__title {
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.cover__subtitle {
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.footer__link {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+}
+
