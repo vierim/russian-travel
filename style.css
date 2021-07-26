@@ -1,3 +1,8 @@
+.page__section {
+  max-width: 320px;
+  padding: 0 16px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -17,16 +22,21 @@
   font-size: 40px;
   line-height: 1.1;
   font-weight: 900;
+  text-align: center;
+  margin: 48px 0 0;
 }
 
 .lead__subtitle {
   font-size: 16px;
   line-height: 1.2;
   font-weight: 400;
+  text-align: center;
+  margin: 16px 0 0;
 }
 
 .lead__image {
   width: 100%;
+  margin-top: 40px;
 }
 
 .lead__caption {
@@ -35,30 +45,47 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  margin-top: 8px;
+  padding: 0 16px;
 }
 
 .intro__title {
   font-size: 32px;
   line-height: 1.1;
   font-weight: 900;
+  margin: 64px 0 0;
 }
 
 .intro__text {
   font-size: 16px;
   line-height: 1.63;
   font-weight: 400;
+  margin: 40px 0 0;
 }
 
 .intro__list {
   font-size: 12px;
   line-height: 1.5;
   font-weight: 400;
+  list-style: none;
+  padding: 0;
+  margin: 34px 0 0;
+}
+
+.photo-grid__item:nth-of-type(1) {
+  margin-top: 64px;
 }
 
 .place__title {
   font-size: 32px;
   line-height: 1.1;
   font-weight: 900;
+  margin: 50px 0 0;
+  padding: 0 16px;
+}
+
+.place__title:nth-of-type(1) {
+  margin: 64px 0 0;
 }
 
 .place__website {
@@ -72,47 +99,64 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
+  margin: 32px 0 0;
+  padding: 16px;
 }
 
 .place__link {
   font-size: 18px;
   line-height: 1.22;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: underline;
   color: #ffffff;
+  margin: 12px 0 0;
+  padding: 16px;
 }
 
 .place__image {
   width: 100%;
+  margin-top: 32px;
 }
 
 .place__paragraph {
   font-size: 16px;
   line-height: 1.63;
   font-weight: 400;
+  margin: 25px 0 0;
+  padding: 0 16px;
+}
+
+.place__paragraph:nth-of-type(1) {
+  margin: 32px 0 0;
 }
 
 .cover__title {
   font-size: 32px;
   line-height: 1.1;
   font-weight: 900;
+  margin: 0;
 }
 
 .cover__subtitle {
   font-size: 14px;
   line-height: 1.15;
   font-weight: 400;
+  margin: 0;
 }
 
 .footer__link {
   font-size: 24px;
   line-height: 1;
   font-weight: 400;
+  margin: 0;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer__copyright {
   font-size: 14px;
   line-height: 1;
   font-weight: 400;
+  margin: 0;
 }
 
