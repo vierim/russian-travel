@@ -1,52 +1,5 @@
-.page__section {
-  max-width: 320px;
-  padding: 0 16px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__lang-menu {
-  list-style: none;
-  padding: 0;
-  display: flex;
-}
-
-.header__lang-link {
-  color: #ffffff;
-}
-
-.lead__title {
-  font-size: 40px;
-  line-height: 1.1;
-  font-weight: 900;
-  text-align: center;
-  margin: 48px 0 0;
-}
-
-.lead__subtitle {
-  font-size: 16px;
-  line-height: 1.2;
-  font-weight: 400;
-  text-align: center;
-  margin: 16px 0 0;
-}
-
-.lead__image {
-  width: 100%;
-  margin-top: 40px;
-}
-
-.lead__caption {
-  font-size: 10px;
-  line-height: 1.4;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-top: 8px;
-  padding: 0 16px;
+.intro {
+  margin: 0 auto;
 }
 
 .intro__title {

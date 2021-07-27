@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin-top: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

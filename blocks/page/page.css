@@ -3,3 +3,21 @@
   color: #ffffff;
   font-family: 'Inter', Arial, sans-serif;
 }
+
+@media (min-width: 768px) {
+  .page {
+
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+
+  }
+}
+
+@media (min-width: 1280px) {
+  .page {
+
+  }
+}
