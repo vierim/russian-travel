@@ -3,7 +3,10 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/__section/_size/_large/page__section_size_large.css);
+@import url(../blocks/page/__section/_size/_s/page__section_size_s.css);
+@import url(../blocks/page/__section/_size/_m/page__section_size_m.css);
+@import url(../blocks/page/__section/_size/_l/page__section_size_l.css);
+@import url(../blocks/page/__section/_size/_xl/page__section_size_xl.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -17,6 +20,24 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__item/intro__item.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);

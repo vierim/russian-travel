@@ -1,0 +1,11 @@
+.place__title {
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 900;
+  margin: 50px 0 0;
+  padding: 0 16px;
+}
+
+.place__title:nth-of-type(1) {
+  margin: 64px 0 0;
+}

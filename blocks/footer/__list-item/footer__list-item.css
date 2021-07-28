@@ -1,3 +1,18 @@
 .footer__list-item {
-  
+  margin-bottom: 32px;
+}
+
+.footer__list-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .footer__list-item {
+    margin-right: 18px;
+    margin-bottom: 0;
+  }
+
+  .footer__list-item:last-child {
+    margin-right: 0px;
+  }
 }
