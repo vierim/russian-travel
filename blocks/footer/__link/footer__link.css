@@ -4,6 +4,16 @@
   font-weight: 400;
   color: #ffffff;
   text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer__link:visited {
+  color: #ffffff;
+}
+
+.footer__link:hover {
+  opacity: .8;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
