@@ -5,6 +5,19 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  margin: 32px 0 0;
-  padding: 16px;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .place__url-heading {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__url-heading {
+    line-height: 1.7;
+  }
 }

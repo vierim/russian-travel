@@ -4,6 +4,17 @@
   font-weight: 400;
   text-decoration: underline;
   color: #ffffff;
-  margin: 12px 0 0;
-  padding: 16px;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+.place__link:visited {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .place__link {
+    padding: 0;
+  }
 }
