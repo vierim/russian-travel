@@ -3,10 +3,10 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/__section/_size/_s/page__section_size_s.css);
-@import url(../blocks/page/__section/_size/_m/page__section_size_m.css);
-@import url(../blocks/page/__section/_size/_l/page__section_size_l.css);
-@import url(../blocks/page/__section/_size/_xl/page__section_size_xl.css);
+@import url(../blocks/page/__section/_size/page__section_size_s.css);
+@import url(../blocks/page/__section/_size/page__section_size_m.css);
+@import url(../blocks/page/__section/_size/page__section_size_l.css);
+@import url(../blocks/page/__section/_size/page__section_size_xl.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
