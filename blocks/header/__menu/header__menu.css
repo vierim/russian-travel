@@ -1,6 +1,13 @@
 .header__menu {
   list-style: none;
-  padding: 0;
+  padding: 7px 0 0;
   margin: 0;
   display: flex;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .header__menu {
+    padding-top: 14px;
+  }
 }
