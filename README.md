@@ -1,8 +1,8 @@
 # Проект: Путешествие по России
 
-## Проект на Github Pages
+### Проект на Github Pages
 
-* [https://web77code.github.io/russian-travel/index.html]
+* [https://web77code.github.io/russian-travel/index.html](https://web77code.github.io/russian-travel/index.html)
 
 ### Обзор
 * Описание работы
@@ -11,7 +11,7 @@
 
 **Описание работы**
 
-Макет
+* Современный макет для сайта про путешествия по России. Готовый сайт является адаптивным и отлично работает на мобильных устройствах.
 
 **Применяемые технологии**
 
