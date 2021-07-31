@@ -2,7 +2,7 @@
 
 ## Проект на Github Pages
 
-* (https://web77code.github.io/russian-travel/index.html)
+* [https://web77code.github.io/russian-travel/index.html]
 
 ### Обзор
 * Описание работы
