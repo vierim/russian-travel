@@ -3,13 +3,6 @@
   padding-right: 0;
 }
 
-@media (min-width: 768px) {
-  .page__section_size_l {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 @media (min-width: 1024px) {
   .page__section_size_l {
     padding-left: 48px;
