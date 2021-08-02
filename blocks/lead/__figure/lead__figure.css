@@ -1,0 +1,15 @@
+.lead__figure {
+  margin: 40px 0 0;
+}
+
+@media (min-width: 768px) {
+  .lead__figure {
+    margin-top: 56px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__figure {
+    margin-top: 64px;
+  }
+}
