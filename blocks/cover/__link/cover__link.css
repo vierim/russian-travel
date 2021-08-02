@@ -1,4 +1,50 @@
 .cover__link {
   color: #ffffff;
   text-decoration: none;
+  margin-top: 66px;
+  background-image: url(../../../images/cover-background.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover__link::before {
+  content: '';
+  background-color: rgba(42, 44, 47, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cover__link:hover::before {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media (min-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+    margin-top: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+    margin-top: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__link {
+    min-height: 740px;
+  }
 }
